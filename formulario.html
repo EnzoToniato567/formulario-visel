@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário ben 10</title>
+</head>
+<body>
+  <form id="personagemForm" method="POST" action="https://script.google.com/macros/s/AKfycbwpGPPVSJdYiq5vMc-IDqr585bisbv3ncipYICW-P5liVXoImBx1a-VkO-Lj3QU3Lu2/exec">
+
+    <center><h1>Bem-vindo(a) ao formulário opinativo e informativo sobre a franquia Ben 10</h1></center>
+    <br>
+    <fieldset>
+      <legend>Dados pessoais</legend>
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" placeholder="Insira seu nome" required />
+      <br>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Insira seu email do google" required />
+      <br>
+      <label for="mensagem">Mensagem</label>
+      <textarea name="mensagem" placeholder="Escreva sua dúvida ao criador<3" required></textarea>
+    </fieldset>
+    <br>
+
+    <fieldset>
+      <legend>Questionário</legend>
+      <label>Qual desses aliens é o mais forte em partes gerais?</label><br><br>
+      <input type="radio" id="fogofat" name="alienFavorito" value="Foto Fátuo">
+      <label for="fogofat">Foto Fátuo</label><br>
+
+      <input type="radio" id="atomico" name="alienFavorito" value="Atômico">
+      <label for="atomico">Atômico</label><br>
+
+      <input type="radio" id="feedback" name="alienFavorito" value="Feedback">
+      <label for="feedback">Feedback</label><br>
+
+      <input type="radio" id="cromatico" name="alienFavorito" value="Cromático">
+      <label for="cromatico">Cromático</label><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Personagens</legend>
+      <label>Em sua opinião, qual o personagem com a melhor personalidade?</label><br><br>
+      <input type="radio" id="gwen" name="personagemFavorito" value="Gwen">
+      <label for="gwen">Gwen</label><br>
+
+      <input type="radio" id="ben10" name="personagemFavorito" value="Ben Tennyson">
+      <label for="ben10">Ben Tennyson</label><br>
+
+      <input type="radio" id="rook" name="personagemFavorito" value="Rook">
+      <label for="rook">Rook (Willian💀🙏)</label><br>
+
+      <input type="radio" id="kevin" name="personagemFavorito" value="Kevin Levin">
+      <label for="kevin">Kevin Levin</label>
+    </fieldset>
+    <br>
+
+    <fieldset>
+      <legend>Séries</legend>
+      <label>Qual das séries de Ben 10 você mais gosta?</label><br><br>
+      <input type="radio" id="classico" name="serieFavorita" value="Ben 10 Clássico">
+      <label for="classico">Ben 10 Clássico</label><br>
+
+      <input type="radio" id="alienforce" name="serieFavorita" value="Ben 10 Força Alienígena">
+      <label for="alienforce">Ben 10 Força Alienígena</label><br>
+
+      <input type="radio" id="ultimatealien" name="serieFavorita" value="Ben 10 Supremacia Alienígena">
+      <label for="ultimatealien">Ben 10 Supremacia Alienígena</label><br>
+
+      <input type="radio" id="omniverse" name="serieFavorita" value="Ben 10 Omniverse">
+      <label for="omniverse">Ben 10 Omniverse</label>
+    </fieldset>
+    <br>
+
+    <button type="submit">Enviar</button>
+    <button type="reset">Refazer</button>
+    <p id="mensagemStatus" style="color: green; font-weight: bold;"></p>
+  </form>
+</body>
+</html>
